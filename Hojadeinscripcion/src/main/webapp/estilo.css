@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+h1{
+	text-align: center;
+}
+input:focus{
+	background-color: red;
+}
+
+input:hover{
+	background-color: yellow;
+}
+
+.recuadrar{
+	
+	border: black 1px solid;
+	border-radius: 5px;
+	background-color: white;
+	
+}
+.linea{
+	
+	display: flex;
+}
+
+.gris{
+	
+	background-color: grey;
+}
+
+.amarillo{
+	
+	background-color: yellow;
+}
+
+.rojo{
+	
+	background-color: orangered;
+}
+

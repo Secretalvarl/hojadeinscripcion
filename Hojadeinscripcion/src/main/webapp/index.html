@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="Alvaro Garcia Barrera">
+<meta name="Ejercicio2CSS">
+<link href="estilo.css" rel="stylesheet"> 
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h1>HOJA DE INSCRIPCION</h1>
+	<h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+	
+	<form action="">
+<fieldset class="gris">
+		<legend class="recuadrar">Datos Personales</legend>
+		
+			
+			<div class="linea">
+                <div>					
+                   <label for="Nombre">Nombre</label>
+                     <br>
+                   <input type="text" required>
+                </div>	
+                <div>
+                   <label for="Apellido">Apellido</label>
+                     <br>
+                   <input type="text" required>
+                </div>
+                <div>
+                   <label for="DNI">DNI</label>
+		                <br>
+                   <input type="text" required>
+                </div>
+                        <br>
+                </div>
+           <div class="linea">
+                <div>
+                   <label for="Localidad de nacimiento">Localidad de nacimiento</label>
+                        <br>
+                   <input type="text" required>
+                </div>
+                   <label for="Provincia">Provincia</label>
+                        
+                <div>
+					    <br>
+                     <select>
+						 <option>El bicho city</option>
+						 <option>El pulga city</option>
+						 <option>Bicho estadio</option>
+						 <option>La pulga estadio</option>
+					 </select>
+			    </div>
+			
+			    <div>
+                   <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+                        <br>
+                   <input type="date" required>
+				</div>
+		    </div>
+		    <div class="linea">
+						<br>
+				<div>
+						<label for="Direccion">Direccion</label>
+						<br>
+					<input type="text" required>
+				</div>
+				<div>
+					<label for="Codigo postal">Codigo postal</label>
+						<br>
+					<input type="password" required>
+				</div>
+		</div>
+		</form>
+</fieldset>
+<fieldset class="amarillo">
+			<legend class="recuadrar">Forma de acceso:</legend>
+		
+			
+				<pre>
+     <input type="radio" required>Directo
+            <input type="radio" required>Bachillerato (Modalidad)<input type="text" required>
+            <input type="radio" required>Experimental
+            <input type="radio" required>COU Opcion<input type="text" required>
+            <input type="radio" required>FP2
+            <input type="radio" required>Otros documentos [Seleccionar archivo.]<input type="text" required>
+     <input type="radio" required>Prueba libre
+            
+          
+				</pre>
+				
+				
+			
+     </fieldset>
+     <fieldset class="rojo">
+		<legend class="recuadrar">Documentos adjuntados</legend>
+		
+		<input type="checkbox" required>Fotocopia_del_DNI 
+		<input type="checkbox" required>Certificado_academico
+		
+		<br>
+		
+		<input type="checkbox" required>Otros documentos<input type="text">
+			
+     </fieldset>
+     <button type="reset" >Enviar</button>
+     </form>
+     
+     
+		
+	
+
+</body>
+</html>
